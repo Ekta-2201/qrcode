@@ -6,5 +6,5 @@ qr=qrcode.QRCode(version=1, error_correction=qrcode.constants.ERROR_CORRECT_H,bo
 
 qr.add_data("https://www.linkedin.com/in/ek-ta-a6943924a/")
 qr.make(fit=True)
-img=qr.make_image(fill_color="pink",back_color="black")
+img=qr.make_image(fill_color="white",back_color="black")
 img.save("mylinkdinaccount.png")
